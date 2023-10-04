@@ -91,3 +91,5 @@ cwebp "t2_1.jpg" -q 60 -o "webp/t2_1.jpg.webp" -m 6 -pass 5
 cwebp "t2_2.jpg" -q 60 -o "webp/t2_2.jpg.webp" -m 6 -pass 5
 cwebp "t2_3.jpg" -q 60 -o "webp/t2_3.jpg.webp" -m 6 -pass 5
 cwebp "t3_1.jpg" -q 60 -o "webp/t3_1.jpg.webp" -m 6 -pass 5
+
+minify-html --output index.min.html --keep-closing-tags --minify-css --minify-js index.html
